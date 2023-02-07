@@ -1,0 +1,55 @@
+/* Your styles go in here. */
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-label {
+    text-align: right;
+}
+
+@media only screen and {max-width: 599px;
+  .form-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .form-label {
+    text-align: left;
+  }
+}
+
+.card {
+    width: 344px;
+}
+
+.desert-picture {
+    height: 194px;
+}
+
+.Card-body-text {
+    padding: 16px;
+}
+
+.Card-title {
+    color: #000;
+    font-size: 22px;
+}
+
+.Secondary-text,
+.card-body-text {
+    color: #232f34;
+    font-size: 11px;
+}
+
+.Person-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App Academy HTTML/CSS Assessment</title>
+    <link href="site.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Your markup goes here. -->
+    <form action='/pets' method="post">
+      <fieldset>
+        <legend>Add Pet</legend>
+
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="pet_name">
+          <!-- has two 'input' fields -->
+        </div>
+
+        <div>
+          <label for="type">Type</label>
+          <select id="type" name="pet_type"
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="hamster">Hamster</option>
+            <option value="other">Other</option>
+            <option value="zebra">Zebra</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="bio">Biography</label>
+          <!-- <input type="textarea" id="bio" name="pet_bio"> -->
+          <textarea type="textarea" name="pet_bio" id="bio" rows="5">
+           Enter pet biography here...
+          </textarea><br>
+        </div>
+
+        <div>
+          <label for="owner-email">Owner's Email</label>
+          <input type="text" id="owner-email" name="pet_owner_email">
+          <!--has two 'input' fields -->
+        </div>
+
+        <div>
+          <button type="submit" id="new-pet-submit-button">Create new pet</button>
+          <!-- has a 'button' element which contains the exact text "Create new pet" -->
+        </div>
+
+        <div>
+          <button type="reset">Reset</button>
+          <!-- <input type="reset" value="Reset" /> -->
+          <!-- has exactly one reset 'button' elements that has the content 'Reset' -->
+        </div>
+
+      </fieldset>
+    </form>
+
+        <div>
+          <img src="/images/desert.jpg" class="desert-picture">
+        </div>
+
+        <div class="card">
+          <img src="/images/person-avatar.jpg" class="Person-avatar">
+          <h1 class="Card-title">Title goes here</h1>
+          <h6 class="Secondary-text">Secondary-text</h6>
+          <p class="Card-body-text">
+              Greyhound divisively hello coldly wonderfully marginally far upon excluding
+          </p>
+        </div>
+  </body>
+</html>
